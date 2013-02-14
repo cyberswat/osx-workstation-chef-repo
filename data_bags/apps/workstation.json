@@ -1,0 +1,36 @@
+{
+  "id": "workstation",
+  "dmgs": {
+    "Firefox": {
+      "volumes_dir": "Firefox",
+      "url": "https://download.mozilla.org/?product=firefox-18.0.2&os=osx&lang=en-US",
+      "checksum": "3987f23ab8eca77ec63007333f2314743d4fb4c791db2a2820841869ef015c8b"
+    }
+  },
+  "dirs": [
+    // Array of directories that are created in $HOME. Create parent
+    // directories of repositories or files for the user here, e.g.:
+    "bin"
+  ],
+  "plists": [
+    // Array of plist file names that get dropped off in
+    // ~/Library/Preferences via mac_os_x_plist
+
+  ],
+  // List of packages and their versions (if any) installed on Linux
+  // systems. These may be different package names than on Homebrew,
+  // so brew installed packages are separate.
+  "packages": {},
+  // Packages that are installed by Homebrew.
+  "brew_packages": {
+    "ack": "",
+    "coreutils": "",
+    "md5sha1sum": "",
+    "openvpn": "",
+    "parallel": "",
+    "pstree": "",
+    "sloccount": "",
+    "tree": "",
+    "wget": ""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "cyberswat",
+  "uid": 501,
+  "shell": "\/bin\/bash",
+  "comment": "cyberswat",
+  "groups": [ 
+    "staff",
+    "com.apple.access_screensharing",
+    "everyone",
+    "_appstore",
+    "localaccounts",
+    "_appserveruser",
+    "admin",
+    "_appserveradm",
+    "_lpadmin",
+    "_lpoperator",
+    "_developer"
+  ],
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPhUQOT67Wo+ZR6FseUT35RN+W8EANXDlBT52oGJHD0N2QoZo8vmYnLO1w4EtLYAf6HLhgxGRwZP816KnW9w6pUnU1HEsfAEb/AmbL4xeiZfC/Tc39Rs9h+/o/NQeP7j7mHmuAnLSrCALFGUYF7IxvxAtudG799YLPeYKhqK7JClIxjgJ3Ax5yHgqbP8SasnNwEELOoHb8GMKKqZXB0ECNVB+1EwKgu6T5KIaVWM4ZXfrsliR6F1kympFiBRaU7YdWWgOHFtWxZnD6tU6HXhJn+6Ni7rXwwogjD0QUTeFBuKZJaagodEXP2DgjIMWcchaOPiZNtOe0oGY4Qh1umaVt kevin@cyberswat.com"
+  ]
+}
