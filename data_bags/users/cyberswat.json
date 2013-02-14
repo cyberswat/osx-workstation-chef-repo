@@ -18,5 +18,19 @@
   ],
   "ssh_keys": [
     "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPhUQOT67Wo+ZR6FseUT35RN+W8EANXDlBT52oGJHD0N2QoZo8vmYnLO1w4EtLYAf6HLhgxGRwZP816KnW9w6pUnU1HEsfAEb/AmbL4xeiZfC/Tc39Rs9h+/o/NQeP7j7mHmuAnLSrCALFGUYF7IxvxAtudG799YLPeYKhqK7JClIxjgJ3Ax5yHgqbP8SasnNwEELOoHb8GMKKqZXB0ECNVB+1EwKgu6T5KIaVWM4ZXfrsliR6F1kympFiBRaU7YdWWgOHFtWxZnD6tU6HXhJn+6Ni7rXwwogjD0QUTeFBuKZJaagodEXP2DgjIMWcchaOPiZNtOe0oGY4Qh1umaVt kevin@cyberswat.com"
-  ]
+  ],
+  "repos": {
+    /*
+      Repositories that should be checked out. They have the following
+      structure:
+      "path_under_$HOME": {
+        "repo": "git_url_to_repository",
+        "revision": "HEAD"
+      }
+    */
+    "git/osx-workstation-chef-repo": {
+      "repo": "git://github.com/cyberswat/osx-workstation-chef-repo.git",
+      "revision": "HEAD"
+    }
+  }
 }

@@ -10,7 +10,8 @@
   "dirs": [
     // Array of directories that are created in $HOME. Create parent
     // directories of repositories or files for the user here, e.g.:
-    "bin"
+    "bin",
+    "git"
   ],
   "plists": [
     // Array of plist file names that get dropped off in
