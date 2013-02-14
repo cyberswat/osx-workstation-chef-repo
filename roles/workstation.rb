@@ -3,7 +3,8 @@ description "Mac OS X worksations"
 run_list(
   "recipe[git]",
   "recipe[workstation]",
-  "recipe[iterm2]"
+  "recipe[iterm2]",
+  "recipe[virtualbox]"
 )
 default_attributes(
   "iterm2" => {
