@@ -1,3 +1,7 @@
+Influences & Motivation
+==========
+I'm reformatting a macbook air that is running osx mountain lion and decided it would be a good opportunity to learn Chef. The framework of this code is from https://github.com/opscode/chef-repo and the rest of it is my cludging through http://jtimberman.housepub.org/blog/2012/07/29/os-x-workstation-management-with-chef/ to fix the broken pieces and mold it into an environment suitable for me.
+
 Overview
 ========
 
